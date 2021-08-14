@@ -1,27 +1,28 @@
 {
-    "name": "wetube",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "dev": "nodemon --exec babel-node src/server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kimtaeyoung0321/wetube-reroaded.git"
-    },
-    "author": "kimtaeyoung",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kimtaeyoung0321/wetube-reroaded/issues"
-    },
-    "homepage": "https://github.com/kimtaeyoung0321/wetube-reroaded#readme",
-    "dependencies": {
-      "express": "^4.17.1"
-    },
-    "devDependencies": {
-      "@babel/core": "^7.14.8",
-      "@babel/preset-env": "^7.14.8",
-      "nodemon": "^2.0.12"
-    }
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimtaeyoung0321/wetube-reroaded.git"
+  },
+  "author": "kimtaeyoung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimtaeyoung0321/wetube-reroaded/issues"
+  },
+  "homepage": "https://github.com/kimtaeyoung0321/wetube-reroaded#readme",
+  "dependencies": {
+    "@babel/node": "^7.14.9",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "nodemon": "^2.0.12"
   }
+}
